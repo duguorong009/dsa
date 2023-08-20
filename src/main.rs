@@ -1,3 +1,4 @@
+mod graph;
 mod tree;
 
 fn main() {
