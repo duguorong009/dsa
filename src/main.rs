@@ -1,3 +1,4 @@
+mod dynamic;
 mod graph;
 mod greedy;
 mod sort;
