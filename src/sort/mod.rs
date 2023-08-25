@@ -1,4 +1,5 @@
 mod bubble;
+mod bucket;
 mod count;
 mod insert;
 mod merge;
