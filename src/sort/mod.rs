@@ -7,3 +7,4 @@ mod merge;
 mod quick;
 mod radix;
 mod select;
+mod shell;
