@@ -1,6 +1,7 @@
 mod bubble;
 mod bucket;
 mod count;
+mod heap;
 mod insert;
 mod merge;
 mod quick;
