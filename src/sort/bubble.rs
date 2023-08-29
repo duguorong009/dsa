@@ -13,9 +13,7 @@ fn bubble_sort(arr: &mut Vec<i32>) {
             if arr[j] > arr[j + 1] {
                 // swapping occurs if elements are not in
                 // the intended order
-                let temp = arr[j];
-                arr[j] = arr[j + 1];
-                arr[j + 1] = temp;
+                arr.swap(j, j + 1);
 
                 swapped = true;
             }

@@ -4,10 +4,7 @@ fn bucket_sort(arr: &mut Vec<f32>) {
     let n = arr.len();
 
     // Create n buckets
-    let mut buckets = vec![];
-    for _ in 0..n {
-        buckets.push(vec![]);
-    }
+    let mut buckets = vec![vec![]; n];
 
     // Insert elements into their respective buckets
     for i in 0..n {

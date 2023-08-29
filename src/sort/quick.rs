@@ -29,8 +29,6 @@ mod tests {
         let mut arr = vec![8, 7, 6, 1, 0, 9, 2];
         quick_sort(&mut arr, 0, 6);
 
-        println!("arr: {arr:?}");
-
         let expected = vec![0, 1, 2, 6, 7, 8, 9];
         assert!(arr == expected);
     }
