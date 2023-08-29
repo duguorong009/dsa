@@ -1,3 +1,4 @@
+mod ds2;
 mod dynamic;
 mod graph;
 mod greedy;
