@@ -23,7 +23,7 @@ fn heap_sort(arr: &mut Vec<i32>) {
     let n = arr.len();
 
     // build max-heap
-    for i in (0..(n / 2) - 1).rev() {
+    for i in (0..(n / 2)).rev() {
         heapify(arr, n, i);
     }
 
