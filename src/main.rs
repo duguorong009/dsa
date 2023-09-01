@@ -3,7 +3,7 @@ mod dynamic;
 mod graph;
 mod greedy;
 mod sort;
-mod tree;
+mod tree1;
 
 fn main() {
     println!("Hello, world!");
